@@ -5,7 +5,7 @@ from typing import List
 
 app = FastAPI()
 
-# Add CORS middleware
+# CORS Implementation
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  
